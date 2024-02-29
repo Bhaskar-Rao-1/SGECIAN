@@ -1,0 +1,228 @@
+.main{
+   margin: auto;
+   background-color: aqua;
+    padding:5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    margin: 10px;
+}
+body{
+    background-image: url(background2.jpg);
+}
+#preloader{
+    background:black url(reading.gif) no-repeat center center ;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-size: 40%;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.body :hover{
+    background-color: rgba(208, 40, 40, 0.922);
+    transition: 1s;
+}
+.body{
+    height: 50px;
+    background-color: springgreen;
+    position: relative;
+    padding: 10px;
+    margin-top: 15px; 
+    display: grid;
+    overflow: hidden;
+    background-image: url(background2.jpg);
+    padding: 10px;
+}
+@keyframes divs2 {
+0%{
+       left: -800px;
+       bottom: 7px;
+   }
+   100%{
+      left: 1500px;
+       bottom: 7px;
+   }
+}
+@keyframes divs1 {
+    0%{
+           left: -700px;
+           bottom: 7px;
+       }
+       100%{
+          left: 1500px;
+           bottom: 7px;
+       }
+    }
+    @keyframes divs3 {
+        0%{
+               left: -1500px;
+               bottom: 7px;
+           }
+           100%{
+              left: 1500px;
+               bottom: 7px;
+           }
+        }
+
+  .about{
+    background-color: rgb(252, 254, 252);
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 17px;
+    display: grid;
+    border: 2px solid red;
+    border-radius: 5px;
+
+    
+  }  
+.trend{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+} 
+.down{
+    background-color: rgb(187, 205, 196);
+    height: 35%;
+    border: 2px solid black;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+}
+.left{
+    height: 100px;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(199, 219, 194);
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.sec{
+    display: flex
+}  
+.sec2{
+    background-image: url(background2.jpg);
+    background-size: cover;
+    
+}
+#head{
+    color: black;
+    text-decoration: none;
+}
+.second{
+    text-align: center;
+    color: black;
+    flex-direction:row;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    width: 50%;
+    height: 400px;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+   
+}
+.div2{
+    height: 50px;
+    width: 400px;
+    left: -500px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: grid;
+    position: absolute;
+    animation: divs2 30s linear infinite;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    animation-delay: 9s;
+    background-image: url(background3.avif);
+}
+.div3{
+    height: 50px;
+    width: 400px;
+    left: -1000px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    animation: divs3 32s linear infinite;
+    text-align: center;
+    animation-delay: 13s;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-image: url(background3.avif);
+}
+.div1{
+    height: 50px;
+    width: 400px;
+    left: -700px;
+    display: flex;
+    position: absolute;
+    animation: divs1 30s linear infinite;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-image: url(background3.avif);
+}
+.floater{
+    float: right;
+    background-color: white;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 2px solid springgreen;
+    height: auto;
+}
+.tag{
+    height: 130px;
+    border: 2px solid white;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.afilated{
+   color: blue;
+    height: 130px;
+    background-color: white;
+    float: left;
+    margin-left: 5px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 3px;
+    font-style: italic;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.foot{
+    background-image: url(background.avif);
+    padding: 5px;
+    height: 60px;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: underline;
+}
+.help{
+    cursor: pointer;
+    text-align: center;
+    transition: 2s;
+    font-size: 20px;
+    color: blue;
+}

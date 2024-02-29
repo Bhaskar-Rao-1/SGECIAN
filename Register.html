@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .center{
+        margin: auto;
+        width :45%;
+        background-color:rgb(8, 1, 18);
+        color: white;
+    }
+    button{
+        background-color: rgb(10, 144, 30);
+        height: 40px;
+        width: 100px;
+        border-radius: 5px;
+        border: 1px solid rgb(11, 135, 38);
+    }
+    body{
+        background-color: black;
+    }
+        error{
+            color:red;
+        }
+        fieldset{
+            background-color: rgb(3, 3, 35);
+            padding: 30px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body><div class="center">
+    <fieldset>
+        
+        <legend>Register</legend>
+        <label>User Name:</label><br><br>
+        <input type="text" name="user" id="user"><br><br>
+        <label>Date of Birth:</label><br><br>
+        <input type="date" name="DOB"><br><br>
+        <label>Mobile:</label><br><br>
+        <input type="tel" name="mobile"><br><br>
+        <label>password: </label><br><br>
+        <input type="password" name="password" id="password">
+        <button onclick="show(this)">show</button>
+        <br>
+        <br>
+        <label>conform password: </label><br><br>
+        <input type="password" onkeyup='check(this)' name="con_password" id="con_password"><br>
+        <error id="alert"></error><br><br>
+        <input type="submit" name="submit">
+        <input type="reset" name="reset">
+    </fieldset></div>
+</body>
+<script>
+    var pass=document.getElementById('password');
+function show(any){
+    var type=pass.getAttribute('type');
+  if(type=='password'){
+    pass.setAttribute('type','text');
+         any.innerText="hide";
+  }else{
+    pass.setAttribute('type','password');
+            any.innerText='show';
+  }
+         
+}
+var password1=document.getElementById('password');
+function check(any){
+  if(any.value.length>0){
+    if(any.value!=password1.value){
+document.getElementById('alert').innerText='password not match';
+    }
+    else{
+        document.getElementById('alert').innerText='';
+    }
+  }
+}
+</script>
+</html>
