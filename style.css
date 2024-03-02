@@ -1,6 +1,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #preloader{
     background:black url(reading.gif) no-repeat center center ;
     height: 100%;
@@ -8,6 +9,12 @@
     position: fixed;
     z-index: 100;
     background-size: 40%;
+}
+@media (max-width:614px) {
+    #preloader{
+      background-size: 150%;
+    }
+    
 }
 
 .total{
@@ -18,33 +25,33 @@
     margin-top: 10px;
     background-attachment: fixed;
 }
-@media (max-width:915px) {
+@media (max-width:614px) {
    .total{
-    width: 70%;
-    background-image: url(book.jpg);
-    height: 100vh;
-   } 
-    
+    margin-top: 0.5px;
+   }
 }
-
 .total-1{
     transition: 2s;
-   
 }
 
 .logo{
     border: 2px solid aqua;
     margin-right: 3%;
-
 }
+@media (max-width:614px) {
+    .logo{
+        margin-right: 0.5%;
+        border: 0.5px solid aqua;
+        height: 20px;
+    }  
+    img{
+        height: 48px;
+    }  
+}
+@media (max-width:px) {
 img{
     height: 160px;
 }
-@media (max-width:915px){
-    
-    img{
-        height: 70px;
-    }
 }
 .logo-title{
     margin-top: 20px;
@@ -60,6 +67,18 @@ img{
     margin-left: 20px;
     margin-right: 20px;
 }
+@media (max-width:614px) {
+    .logo-title{
+        height: 50px;
+        width: 100%;
+        margin-top: 3px;
+        padding: 1.5px;
+        border-radius: 5px;
+        margin-top: 2px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+}
 .logo-title-1{
     margin-top: 20px;
     padding: 1px;
@@ -70,24 +89,19 @@ img{
     margin-left: 20px;
     margin-right: 2px;
 }
-@media (max-width:915px) {
-    .logo-title{
-        float: left;
+@media (max-width:614px) {
+    .logo-title-1{
         font-size: 10px;
-        padding: 1px;
-        margin-top: 10px;
-        margin-left: 1px;
-        height: 70px;
-        width: 190px;
-        border-radius: 5px;
-        background-image: url(tree.avif);
-        background-size: cover;
-        background-repeat: no-repeat;
+        margin-top: 2px;
+        padding: 0.2px;
+        height: 200px;
+        width: 132%;
+        border-radius: 1px;
+        margin-top: 5px;
+        margin-left: -60px;
+        margin-right: 1px;
+        margin-bottom: 0px;
     }
-    h1{
-        font-size: 15px;
-    }
-    
 }
 .title{
     color: black;
@@ -105,17 +119,13 @@ img{
     cursor: pointer;
 
 }
-@media (max-width:915px) {
+@media (max-width:614px) {
     .title{
-        background-image: url(tree.avif);
-        border: 2px solid black;
-        border-radius: 2px;
+        font-size: 6px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-right: 1%;
     }
-    .jntugv{
-        background-color: red;
-        }
-
-    
 }
 .title-2{
     height:40px;
@@ -126,6 +136,10 @@ img{
     height: 200px;
     transition: 2s;
 }
+@media (max-width:614px) {
+    .title-2{
+    }
+}
 .title:hover{
     color: blue;
     transition: 2s;
@@ -133,21 +147,42 @@ img{
 .jntugv{
     color: blue;
     text-align: center;
-    float: left;
-    
+    float: left;  
     margin-left: 100px;
     margin-right: 100px;
+}
+@media (max-width:614px) {
+.jntugv{
+    margin-left: 10px ;
+    margin-right: -500px;
+    margin: 60px;
+    margin-top: -100px;
+}
 }
 #WTS{
     text-align: center;
     color: white;
     transition: 2s;
-    font-style: 20px;
+    font-size: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 60px;
     margin-left: 10px;
     margin-right: 20px;
+}
+#WTS:hover{
+    font-size: 30px;
+    color: black;
+}
+@media (max-width:614px){
+    #WTS{
+        margin-top: 1px;
+        font-size: 10px;
+    }
+    #WTS:hover{
+        font-size: 11px;
+        color: black;
+    }
 }
 .section{
     margin: 1px;
@@ -158,6 +193,14 @@ img{
     margin-left: 10px;
     margin-right: 10px;
 }
+@media (max-width:614px) {
+    .section{
+        margin-top: 10px;
+        padding: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
 .scroll{
     height: 75px;
     border: 2px solid black;
@@ -166,6 +209,13 @@ img{
     position: relative;
     text-align: center;
     overflow: hidden;
+}
+@media (max-width:614px) {
+    .scroll{
+        height: 40px;
+        border: 1px solid black;
+        border-radius: 3px;
+    }
 }
 .a1{
     padding: 10px;
@@ -183,6 +233,16 @@ img{
     border-radius: 2px;
     transition: 1s;
 }
+@media (max-width:614px) {
+.a1{
+    padding: 5px;
+    height: 15px;
+    width: 130px;
+    border: 1px solid black;
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+}
 .a2{
     padding: 10px;
     width: 180px;
@@ -199,6 +259,16 @@ img{
     border-radius: 2px;
     transition: 1s;
 }
+@media (max-width:614px) {
+    .a2{
+            padding: 5px;
+            height: 15px;
+            width: 130px;
+            border: 1px solid black;
+            margin-bottom: 6px;
+            font-size: 12px;
+    }
+}
 .a3{
     padding: 10px;
     width: 180px;
@@ -213,6 +283,16 @@ img{
     border: 2px solid black;
     border-radius: 2px;
     transition: 1s;
+}
+@media (max-width:614px) {
+    .a3{
+            padding: 5px;
+            height: 15px;
+            width: 130px;
+            border: 1px solid black;
+            margin-bottom: 6px;
+            font-size: 12px;
+    }
 }
 .a4{
     padding: 10px;
@@ -229,6 +309,16 @@ img{
     border-radius: 2px;
     transition: 1s;
 }
+@media (max-width:614px) {
+    .a4{
+            padding: 5px;
+            height: 15px;
+            width: 130px;
+            border: 1px solid black;
+            margin-bottom: 6px;
+            font-size: 12px;
+    }
+}
 .a5{
     padding: 10px;
     width: 180px;
@@ -244,7 +334,16 @@ img{
     border-radius: 2px;
     transition: 1s;
 }
-
+@media (max-width:614px) {
+    .a5{
+            padding: 5px;
+            height: 15px;
+            width: 130px;
+            border: 1px solid black;
+            margin-bottom: 6px;
+            font-size: 12px;
+    }
+}
 .a1:hover{
     background-color: rgba(23, 25, 133, 0.745);
     color: white;
@@ -253,6 +352,13 @@ img{
     width: 200px;
     height: 35px;
     transition: 1s;
+}
+@media (max-width:614px) {
+    .a1:hover{
+    border-radius: 3px;
+    width: 150px;
+    height: 18px;
+    }
 }
 .a2:hover{
     background-color: rgba(23, 25, 133, 0.745);
@@ -263,6 +369,13 @@ img{
     height: 35px;
     transition: 1s;
 }
+@media (max-width:614px) {
+    .a2:hover{
+    border-radius: 3px;
+    width: 150px;
+    height: 18px;
+    }
+}
 .a3:hover{
     background-color: rgba(23, 25, 133, 0.745);
     color: white;
@@ -271,6 +384,13 @@ img{
     width: 200px;
     height: 35px;
     transition: 1s;
+}
+@media (max-width:614px) {
+    .a3:hover{
+    border-radius: 3px;
+    width: 150px;
+    height: 18px;
+    }
 }
 .a4:hover{
     background-color: rgba(23, 25, 133, 0.745);
@@ -281,6 +401,13 @@ img{
     height: 35px;
     transition: 1s;
 }
+@media (max-width:614px) {
+    .a4:hover{
+    border-radius: 3px;
+    width: 150px;
+    height: 18px;
+    }
+}
 .a5:hover{
     background-color: rgba(23, 25, 133, 0.745);
     color: white;
@@ -289,6 +416,13 @@ img{
     width: 200px;
     height: 35px;
     transition: 1s;
+}
+@media (max-width:614px) {
+    .a5:hover{
+    border-radius: 3px;
+    width: 150px;
+    height: 18px;
+    }
 }
 
 @keyframes a1 {
@@ -343,7 +477,6 @@ img{
 }
 .tree{
     background-image: url(tree1.avif);
-    height: 700px;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 60px;
@@ -353,32 +486,93 @@ img{
     opacity: 0.9;
     transition: 1s;
     border-radius: 20px;
+    padding: 70px;
+    height: 900px;
 }
 .tree:hover{
     opacity: 1;
     transition: 1s;
 }
+@media (max-width:614px) {
+    .tree{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        padding: 3px;
+        border-radius: 10px;
+    }
+    
+}
 
 .black{
-    height: 90%;
-    width: 48%;
-    border-radius: 13px;
+    width: 400px;
+   border-top-right-radius: 25px;
+   border-bottom-left-radius: 25px;
     margin-left: 5px;
-    float: left;
     margin-top: 20px;
     background-color: rgba(5, 5, 5, 0.827);
     margin-right: 5px;
     opacity: 0.8;
     transition: 1s;
     color: white;
-    font-size: 20px;
-    text-align: left;
-
+    font-size: 17px;
+    padding: 30px;
 }
+@media (max-width:614px) {
+    .black{
+        font-size: 10px;
+        width: 220px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        padding: 2px;
+        
+    }
+}
+.black1{
+    margin-left: 100px;
+    height: 550px;
+    width: 508px;
+    border-bottom-right-radius: 25px;
+    margin-top: 200px;
+}
+@media (max-width:614px) {
+    .black1{
+        padding: 3px;
+        margin-top: 25px;
+        margin-left: 10px;
+        width: 245px;
+        height: 325px;
+        border-top-right-radius: 15px;
+    }
+}
+
 .black:hover{
     opacity: 1;
-    height: 92%;
-    width: 50%;
+    width: 410px;
     transition: 1s;
   
+}
+@media (max-width:614px) {
+    .black:hover{
+        width: 240px;
+    }
+}
+.black1:hover{
+    width: 518px;
+}
+@media (max-width:614px) {
+    .black1:hover{
+        width: 250px;
+    }
+}
+.black-in{
+padding: 9px;
+}
+@media (max-width:614px) {
+    .black-in{
+        padding: 3px;
+    }
+}
+.tree-1{
+    float: left;
 }
