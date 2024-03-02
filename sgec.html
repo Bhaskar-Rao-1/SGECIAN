@@ -18,15 +18,18 @@
         <div class="title">
             <div class="title-1">
             <h1>Sai Ganpathi Engineering College</h1>
+            <h4>Address: Gidijala(v) Visakhapatnam Andhra Pradesh</h4>
         </div>
         </div>
         </div>
         </div>
         <div class="logo-title-1">
         <div class="title-2">
-            <h4 style="text-align: start;">EAPCET CODE : SGEC</h4>
-            <h4 style="margin-left: 0px;">📞  phone : XXXXXXXXXXX || XXXXXXXXXX</h4>
-            <h4 style="margin-left: 0px;">&#x2709;   E-mail : saiganpathi.edu.@gmail.com</h4>
+            <h4 style="text-align: start; transition: 2s;" id="code" onmouseenter="mod()" onmouseleave="mods()">EAPCET CODE : SGEC</h4>
+            <h4 style="margin-left: 0px; ">📞  phone : XXXXXXXXXXX || XXXXXXXXXX</h4>
+            <h4 style="margin-left: 0px;">&#x2709;   E-mail : principal.sgec@gmail.com</h4>
+           
+            
         </div>
         <div class="jntugv">
             <a href="https://jntugv.edu.in/academics/affliated-colleges" style="text-decoration: none;"> <img src="jntugv.png" height="104px">
@@ -43,15 +46,25 @@
     </div>
     <div class="section">
         <div class="scroll">
-            <div class="a1"><a href="Register.html" style="color: black; text-decoration: none;">Register</a></div>
+            <a href="Register.html" style="color: black; text-decoration: none;"> <div class="a1">Register</div></a>
             <div class="a2">A2</div>
             <div class="a3">A3</div>
             <div class="a4">A4</div>
             <div class="a5">A5</div>
         </div>
-        
+        <div class="tree">
+            <div class="black">
+<p>To be among most preferred premier Engineering 
+    colleges, for overall development of the student 
+    by means of Education, Innovation & Social
+     responsibility with ethical values.</p>
+            </div>
+            <div class="black">
+               
+            </div>
         </div>
-        <img src="college.png" height="300px" width="400px">
+        </div>
+       
     </div>
     </div>
 </body>
@@ -70,5 +83,21 @@
     window.addEventListener('load',function(){
         loader.style.display='none';
     })
+    var code =document.getElementById('code');
+    function mod(){
+    code.style.fontSize='21px';
+    code.style.color='red';
+}
+function mods(){
+    code.style.fontSize='19px';
+    code.style.color='black';
+}
+var phone=document.getElementById('phone');
+function smod(){
+    phone.style.fontSize='21px';
+}
+function smods(){
+    phone.style.fontSize='19px';
+}
 </script>
 </html>
