@@ -29,7 +29,7 @@
 @media (max-width:614px) {
    .total{
     margin-top: 0.5px;
-    height: 1200px;
+    height: 500px;
    }
 }
 .total-1{
@@ -202,7 +202,7 @@ img{
 }
 @media (max-width:614px) {
     .icon a{
-        width: 15%;
+        width: 20%;
     }
 }
 .active{
@@ -224,7 +224,7 @@ img{
 .down{
     background-color: #2ad194;
     color: white;
-    height:300px;
+    height:320px;
 }
 .down-style{
     width: 50%;
