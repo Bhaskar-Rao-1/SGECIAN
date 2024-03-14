@@ -156,7 +156,7 @@ img{
 .jntugv{
     margin-bottom: 200px;
     float: left;
-    width: 90px;
+    width: 20%;
     margin: 60px;
     margin-left: 50px;
     padding: 10px;
@@ -165,7 +165,7 @@ img{
 }
 .JNTUGV{
     background-color: #000;
-    margin-left: -5px;
+    width: 100%;
 }
 .JNTUGV img{
 }
