@@ -970,6 +970,12 @@ to{
         margin-bottom: -25px;
         margin-top: -20px;
     }
+    .recruters{
+        height: 350px;
+    }
+    .recruters-1{
+        height: 250px;
+    }
 }
 .div{
     background: #f1f1f3;
@@ -1023,7 +1029,7 @@ to{
 }
 @media(max-width:400px){
     .down{
-       height: 900px;
+       height: 800px;
     }
     .copy{
         height: 20px;
