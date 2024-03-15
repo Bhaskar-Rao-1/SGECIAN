@@ -170,6 +170,11 @@ img{
     width: 50px;
 }
 }
+@media (max-width:400px) {
+    .jntugv-1{
+        margin-left: 250PX;
+    }
+}
 #WTS{
     text-align: center;
     color: white;
@@ -788,6 +793,16 @@ to{
         margin-top: 50px;
     }
 }
+@media (max-width:400px){
+      .branches-1 img{
+        height: 136px;
+        width: 183.5px;
+      }
+      .branches-1 img:hover{
+        height: 150px;
+        width: 210px;
+      }
+}
 .going{
   font-size: 20px;
     background-color: #a6e1cc;
@@ -808,6 +823,14 @@ to{
         margin-top: -280px;
         width: 290px;
     }
+}
+@media (max-width:400px){
+.going{
+    height: 1140px;
+}
+.going h3{
+    margin-top:-260px ;
+}
 }
 .going-1{
     width: 32%;
@@ -865,7 +888,7 @@ to{
     background-color: rgb(160, 183, 215);
     float: left;
     padding: 30px;
-    height: 770px;
+    height: 900px;
     margin-top: 10px;
 }
 @media (max-width:614px) {
@@ -905,7 +928,7 @@ to{
 .recruters-1{
     background-color: #dbdce2;
     margin: auto;
-    height:610px;
+    height:780px;
     padding: 20px;
     border-radius: 10px;
 }
@@ -927,7 +950,7 @@ to{
     width: 600px;
 }
 .margin{
-    margin-left: 1200px;
+    margin-left: 1100px;
     margin-top:-100px;
 }
 @media (max-width:614px) {
@@ -939,7 +962,19 @@ to{
     }
     .margin{
         margin-left: 119px;
-        margin-top: -45px;
+        margin-top: -55px;
+    }
+}
+@media (max-width:400px) {
+    .less{
+        margin-bottom: -25px;
+        margin-top: -20px;
+    }
+    .recruters{
+        height: 350px;
+    }
+    .recruters-1{
+        height: 250px;
     }
 }
 .div{
@@ -950,7 +985,7 @@ to{
 .down{
     background-color: #2ad194;
     color: white;
-    height:1100px;
+    height:1250px;
 }
 .down-style{
     width: 50%;
@@ -990,5 +1025,13 @@ to{
     .copy{
         height: 25px;
         font-size: 10px;
+    }
+}
+@media(max-width:400px){
+    .down{
+       height: 800px;
+    }
+    .copy{
+        height: 20px;
     }
 }

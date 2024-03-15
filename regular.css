@@ -216,14 +216,14 @@ img{
 .down{
     background-color: #2ad194;
     color: white;
-    height:320px;
+    height:330px;
 }
 .down-style{
     width: 50%;
 }
 @media (max-width:614px) {
     .down{
-        height: 700px;
+        height: 1110px;
     }
 }
 .down-1{
@@ -236,8 +236,9 @@ img{
 @media (max-width:614px) {
     .down-1{
         font-size: 13px;
+        padding: 2px;
         margin-left: 0px;
-        height: 200px;
+        height: 190px;
     }
     .down-style{
         width: 100%;
@@ -250,10 +251,19 @@ img{
      text-align: center; 
      font-weight: normal;
      height: 22px;
-     font-size: 13px;
+     font-size: 15px;
 }
 @media (max-width:614px) {
     .copy{
-        height: 37px;
+        height: 25px;
+        font-size: 10px;
+    }
+}
+@media(max-width:400px){
+    .down{
+       height: 440px;
+    }
+    .copy{
+        height: 20px;
     }
 }
