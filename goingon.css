@@ -143,6 +143,16 @@ img{
     margin-left: 100px;
     margin-right: 100px;
 }
+@media (max-width:1000px) {
+    .jntugv{
+        margin-left: 0px;
+    }
+    .jntugv-1{
+        margin-left: 700px;
+        margin-top: -200px;
+    
+    }
+}
 @media (max-width:614px) {
 .jntugv{
     float: left;
@@ -327,6 +337,11 @@ img{
      height: 22px;
      font-size: 15px;
 }
+@media (max-width:1000px) {
+    .down{
+        height: 700px;
+    }
+}
 @media (max-width:614px) {
     .copy{
         height: 25px;
@@ -340,5 +355,13 @@ img{
     .copy{
         height: 20px;
         padding: 3px;
+    }
+}
+@media (max-width:300px){
+    .down{
+        height: 760px;
+    }
+    .copy{
+        height: 25px;
     }
 }

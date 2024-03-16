@@ -26,11 +26,21 @@
     background-attachment: fixed;
     height: 550px;
 }
+@media (max-width:1000px){
+    .total{
+        height: 870px;
+    }
+}
 @media (max-width:614px) {
    .total{
     margin-top: 0.5px;
     height: 900px;
    }
+}
+@media (max-width:400px){
+    .total{
+        height: 550px;
+    }
 }
 .total-1{
     transition: 2s;
@@ -170,7 +180,66 @@ img{
         margin-left: 250PX;
     }
 }
-
+@media (max-width:1000px) {
+    .jntugv{
+        margin-left: 0px;
+    }
+    .jntugv-1{
+        margin-left: 700px;
+        margin-top: -200px;
+    
+    }
+}
+@media (max-width:614px) {
+.jntugv{
+    float: left;
+    width: 27%;
+    margin-left: 125px;
+    padding: 10px;
+    margin-top: -110px;
+    margin-bottom: -5px;
+}
+.jntugv-1{
+    margin-left: 200px;
+    margin-top: -112.5px;
+}
+.JNTUGV{
+    background-color: #000;
+    width: 100%;
+}
+.JNTUGV img{
+    height: 50px;
+    width: 50px;
+}
+}
+@media (max-width:1000px) {
+    .jntugv{
+        margin-left: 0px;
+    }
+    .jntugv-1{
+        margin-left: 700px;
+        margin-top: -200px;
+    
+    }
+}
+@media (max-width:400px) {
+    .jntugv{
+        margin-left: 130px;
+    }
+    .jntugv-1{
+        margin-left: 250px;
+        margin-top: -110px;
+        
+    }
+}
+@media (max-width:300px){
+    .jntugv{
+        margin-left: 125px;
+    }
+    .jntugv-1{
+        margin-left: 200px;
+    }
+}
 *{
     box-sizing: border-box;
 }
@@ -283,6 +352,11 @@ img{
         font-size: 10px;
     }
 }
+@media (max-width:1000px){
+    .down{
+        height: 620px;
+    }
+}
 @media(max-width:400px){
     .down{
        height: 440px;
@@ -290,5 +364,13 @@ img{
     .copy{
         height: 20px;
         padding: 3px;
+    }
+}
+@media (max-width:300px) {
+    .down{
+        height: 650px;
+    }
+    .copy{
+        height: 25px;
     }
 }
