@@ -143,6 +143,16 @@ img{
     margin-left: 100px;
     margin-right: 100px;
 }
+@media (max-width:1000px) {
+    .jntugv{
+        margin-left: 0px;
+    }
+    .jntugv-1{
+        margin-left: 700px;
+        margin-top: -200px;
+    
+    }
+}
 @media (max-width:614px) {
 .jntugv{
     float: left;
@@ -170,7 +180,21 @@ img{
         margin-left: 250PX;
     }
 }
-
+@media (max-width:1000px) {
+    .total{
+        height: 2500px;
+    }
+}
+@media (max-width:400px) {
+    .total{
+        height: 1400px;
+    }
+}
+@media (max-width:300px) {
+    .total{
+        height: 1100px;
+    }
+}
 *{
     box-sizing: border-box;
 }
@@ -201,7 +225,7 @@ img{
     background-color: #04aa6d;
 }
 .select{
-    background-color: #4e5bd2;
+    background-color: #a9c3d1;
     height: 300px;
     width: 300px;
     margin-left: 40px;
@@ -209,7 +233,7 @@ img{
     float: left;
     color: white;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 30px;
     border-radius: 3px;
 }
 @media (max-width:614px) {
@@ -219,6 +243,20 @@ img{
         margin-left: 5px;
         margin-top: 20px;
         padding-top: 90px;
+    }
+}
+@media (max-width:400px) {
+    .select{
+        padding-top: 3px;
+        font-size: 12px;
+    }
+}
+@media (max-width:300px) {
+    .select{
+        height: 130px;
+        font-size: 10PX;
+        padding-top: 2PX;
+        width: 130px;
     }
 }
 .sem{
@@ -232,9 +270,25 @@ img{
     text-align: center;
     margin-top: 800px;
 }
+@media (max-width:1000px) {
+    .sem-1{
+        margin-top: 1200px;
+    }
+}
 @media (max-width:614px) {
     .sem-1{
         margin-top: 820px;
+        width: 100%;
+    }
+}
+@media (max-width:400px){
+    .sem-1{
+        margin-top: 650px;
+    }
+}
+@media (max-width:300px) {
+    .sem-1{
+        margin-top: 500px;
     }
 }
 .down{
@@ -277,6 +331,11 @@ img{
      height: 22px;
      font-size: 15px;
 }
+@media (max-width:1000px) {
+    .down{
+        height: 620px;
+    }
+}
 @media (max-width:614px) {
     .copy{
         height: 25px;
@@ -290,5 +349,13 @@ img{
     .copy{
         height: 20px;
         padding: 3px;
+    }
+}
+@media (max-width:300px) {
+    .down{
+        height: 650px;
+    }
+    .copy{
+        height: 25px;
     }
 }
