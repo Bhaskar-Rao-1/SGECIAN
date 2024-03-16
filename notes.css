@@ -24,12 +24,12 @@
     position: sticky;
     margin-top: 10px;
     background-attachment: fixed;
-    height: 500px;
+    height: 2100px;
 }
 @media (max-width:614px) {
    .total{
     margin-top: 0.5px;
-    height: 500px;
+    height: 1200px;
    }
 }
 .total-1{
@@ -81,15 +81,26 @@ img{
         margin-right: 3px;
     }
 }
+.logo-title-1{
+    margin-top: 20px;
+    padding: 1px;
+    height: 160px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 2px;
+}
 @media (max-width:614px) {
     .logo-title-1{
         font-size: 10px;
         margin-top: 2px;
         padding: 0.2px;
-        height: 120px;
-        width: 100%;
+        height: 200px;
+        width: 132%;
+        border-radius: 1px;
         margin-top: 5px;
-        margin-left: 0px;
+        margin-left: -60px;
+        margin-right: 1px;
         margin-bottom: 0px;
     }
 }
@@ -113,25 +124,23 @@ img{
     .title{
         font-size: 6px;
         border: 1px solid black;
-        border-radius: 2px;
+        border-radius: 5px;
         margin-right: 1%;
     }
 }
 .title-2{
+    height:40px;
     padding: 10px;
     margin-left: 100px;
     margin-right: 100px;
     float: left;
     height: 200px;
+    transition: 2s;
 }
 @media (max-width:614px) {
     .title-2{
-        margin-left: 0px;
-        height: 110px;
-        width: 46%;
     }
 }
-
 .title:hover{
     color: blue;
     transition: 2s;
@@ -145,41 +154,31 @@ img{
 }
 @media (max-width:614px) {
 .jntugv{
+    margin-bottom: 200px;
     float: left;
-    width: 30%;
-    margin-left: 125px;
+    width: 20%;
+    margin: 60px;
+    margin-left: 50px;
     padding: 10px;
-    margin-top: -110px;
+    margin-top: -90px;
     margin-bottom: -5px;
 }
-
-.jntugv-1{
-    margin-left: 100px;
-    margin-top: -112.5px;
-}
-
 .JNTUGV{
     background-color: #000;
     width: 100%;
 }
 .JNTUGV img{
-    height: 50px;
-    width: 50px;
 }
 }
-@media (max-width:400px) {
-    .jntugv-1{
-        margin-left: 250PX;
-    }
+#WTS{
+    text-align: center;
+    color: white;
+    transition: 2s;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 50px;
 }
-@media (max-width:300px){
-    .jntugv{
-        margin-left: 125px;
-    }
-    .jntugv-1{
-        margin-left: 200px;
-    }
-}
+
 *{
     box-sizing: border-box;
 }
@@ -203,81 +202,21 @@ img{
 }
 @media (max-width:614px) {
     .icon a{
-        width: 20%;
+        width: 15%;
     }
 }
 .active{
     background-color: #04aa6d;
 }
 
-.regular{
-    background-color: rgb(125, 113, 195);
+.year{
+    background-color: red;
     height: 300px;
 }
-.select{
-    background-color: rgb(83, 71, 174);
-    text-align: center;
-    height: 40px;
-    padding: 0px;
-    margin: 10px;
-    margin-top: 10px;
-}
-.down{
-    background-color: #2ad194;
-    color: white;
-    height:330px;
-}
-.down-style{
-    width: 50%;
-}
-@media (max-width:614px) {
-    .down{
-        height: 1110px;
-    }
-}
-.down-1{
-    padding: 10px;
-    margin-top: 10px;
-    height: 270px;
+.sem{
+    width: 49%;
+    background-color: yellow;
     float: left;
-    margin-left: 20px;
-}
-@media (max-width:614px) {
-    .down-1{
-        font-size: 13px;
-        padding: 2px;
-        margin-left: 0px;
-        height: 190px;
-    }
-    .down-style{
-        width: 100%;
-    }
-}
-.copy{
-    width: 100%;
-     float: left; 
-    background-color: rgb(84, 110, 213);
-     text-align: center; 
-     font-weight: normal;
-     height: 22px;
-     font-size: 15px;
-}
-@media (max-width:614px) {
-    .copy{
-        height: 25px;
-        font-size: 10px;
-    }
-}
-@media(max-width:400px){
-    .down{
-       height: 440px;
-    }
-    .copy{
-        height: 20px;
-    }
-}
-@media (max-width:300px) {
-    .down{
-        height: 650px;
-    }
+    text-align: center;
+    margin-left: 5px;
 }

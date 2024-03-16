@@ -30,7 +30,7 @@
 @media (max-width:614px) {
    .total{
     margin-top: 0.5px;
-    height: 1200px;
+    height: 1100px;
    }
 }
 
@@ -151,7 +151,7 @@ img{
 @media (max-width:614px) {
 .jntugv{
     float: left;
-    width: 27%;
+    width: 30%;
     margin-left: 125px;
     padding: 10px;
     margin-top: -110px;
@@ -173,6 +173,14 @@ img{
 @media (max-width:400px) {
     .jntugv-1{
         margin-left: 250PX;
+    }
+}
+@media (max-width:300px){
+    .jntugv{
+        margin-left: 125px;
+    }
+    .jntugv-1{
+        margin-left: 200px;
     }
 }
 #WTS{
@@ -499,15 +507,22 @@ img{
         height: 70%;
     }
 }
+@media (max-width:300px) {
+    .slide{
+        width: 100%;
+    }
+    .slide img{
+        height: 200px;
+    }
+}
 .tree{
-    background-image: url(tree.avif);
+    background-color: rgb(244, 242, 242);
     margin-top: 60px;
-    background-repeat: no-repeat;
-    background-size: cover;
     opacity: 0.9;
     transition: 1s;
-    border-radius: 10px;
     padding: 70px;
+    margin-right: -15px;
+    margin-left: -15px;
     height: 1000px;
 }
 
@@ -517,12 +532,11 @@ img{
 }
 @media (max-width:614px) {
     .tree{
-        margin-left: 0px;
-        margin-right: 10px;
-        margin-top: 0px;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-top: 8px;
         padding: 3px;
-        border-radius:5px;
-        height: 710px;
+        height: 700px;
     }
     
 }
@@ -531,7 +545,7 @@ img{
     width: 94%;
    border-top-right-radius: 25px;
    border-bottom-left-radius: 25px;
-    margin-left: 5px;
+   margin-left: 5px;
     margin-top: 20px;
     background-color: rgba(5, 5, 5, 0.827);
     margin-right: 5px;
@@ -558,7 +572,7 @@ img{
 @media (max-width:614px) {
     .black{
         font-size: 10px;
-        width: 220px;
+        width: 350px;
         border-top-right-radius: 15px;
         border-bottom-left-radius: 15px;
         padding: 2px;  
@@ -566,8 +580,13 @@ img{
     .img img{
         height: 200px;
         width: 220px;
-        margin-top: 10px;
-        margin-left: 5px;
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+}
+@media (max-width:300px){
+    .black{
+        width: 250px;
     }
 }
 .black1{
@@ -596,7 +615,7 @@ img{
 }
 @media (max-width:614px) {
     .black:hover{
-        width: 240px;
+        width: 350px;
     }
 }
 .black1:hover{
@@ -605,6 +624,11 @@ img{
 @media (max-width:614px) {
     .black1:hover{
         width: 250px;
+    }
+}
+@media (max-width:300px){
+    .black:hover{
+        width: 250px
     }
 }
 .black-in{
@@ -638,6 +662,11 @@ padding: 9px;
         width: 100%;
     }
 }
+@media (max-width:300px) {
+    .slide img{
+        width: 95%;
+    }
+}
 .myslide{
        display: none;
 }
@@ -654,6 +683,11 @@ padding: 9px;
     border-radius: 0 3px 3px 0;
     transition: 0.6s ease;
     user-select: none;
+}
+@media (max-width:300px){
+    .next{
+        margin-right: 15px;
+    }
 }
 .next{
     right: 0px;;
@@ -889,6 +923,7 @@ to{
     float: left;
     padding: 30px;
     height: 900px;
+    width: 100%;
     margin-top: 10px;
 }
 @media (max-width:614px) {
@@ -943,6 +978,7 @@ to{
         width: 100px;
     }
 }
+
 .size2{
     width: 500px;
 }
@@ -975,6 +1011,14 @@ to{
     }
     .recruters-1{
         height: 250px;
+    }
+}
+@media (max-width:300px) {
+    .recruters{
+        height: 500px;
+    }
+    .recruters-1{
+        height: 400px;
     }
 }
 .div{
@@ -1033,5 +1077,14 @@ to{
     }
     .copy{
         height: 20px;
+        padding: 2px;
+    }
+}
+@media (max-width:300px) {
+    .down{
+        height: 1160px;
+    }
+    .copy{
+        height: 25px;
     }
 }
