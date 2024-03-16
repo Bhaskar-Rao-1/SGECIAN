@@ -24,7 +24,7 @@
     position: sticky;
     margin-top: 10px;
     background-attachment: fixed;
-    height: 500px;
+    height: 550px;
 }
 @media (max-width:614px) {
    .total{
@@ -233,18 +233,35 @@ img{
 .active{
     background-color: #04aa6d;
 }
-
-.regular{
-    background-color: rgb(125, 113, 195);
-    height: 300px;
-}
-.select{
-    background-color: rgb(83, 71, 174);
+.text{
+    background-color: azure;
     text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    font-weight: bold;
     height: 40px;
-    padding: 0px;
-    margin: 10px;
-    margin-top: 10px;
+}
+.result{
+    background-color: rgb(100, 212, 124);
+    height: 10px;
+}
+.result-1{
+    background-color: white;
+    height: 50px;
+    width: 45%;
+    padding-top: 15px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 10px;
+    float: left;
+}
+@media (max-width:400px) {
+    .result-1{
+        font-size: 12px;
+    }
+    .result{
+        height: 8px;
+    }
 }
 .down{
     background-color: #2ad194;
