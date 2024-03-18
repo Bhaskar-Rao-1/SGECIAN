@@ -1174,8 +1174,8 @@ to{
 
 @media(max-width:400px){
     .down{
-       height: 600px;
-        background-color: green;
+       height: 500px;
+        background-color: yelloe;
     }
     .help p{
         margin-left: 160px;
