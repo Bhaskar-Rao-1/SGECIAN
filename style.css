@@ -1189,7 +1189,8 @@ to{
 }
 @media (max-width:360px) {
     .down{
-        height:800px;
+        height:700px;
+        background-color:red;
     }
     .down-1{
         margin-top: -10px;
