@@ -604,6 +604,11 @@ img{
         margin-left: 15px;
     }
 }
+@media (max-width:360px) {
+    .black{
+        width: 330px;
+    }
+}
 @media (max-width:300px){
     .black{
         width: 250px;
@@ -841,6 +846,12 @@ to{
     width: 380px;
     transition: 3s;
 }
+@media (max-width:1000px) {
+    .branches img{
+        height: 280px;
+        width: 300px;
+    }
+}
 @media (max-width:614px) {
     .branches{
         margin-top: 40px;
@@ -891,6 +902,7 @@ to{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 @media (max-width:614px) {
     .going{
         font-size: 15px;
@@ -963,6 +975,13 @@ to{
 .float{
     float: left;
 } 
+@media (max-width:1000px) {
+   
+    .going-1 img{
+        width: 220px;
+        height: 220px;
+    }
+}
 .recruters{
     background-color: rgb(160, 183, 215);
     float: left;
@@ -1013,6 +1032,7 @@ to{
     padding: 20px;
     border-radius: 10px;
 }
+
 @media (max-width:614px) {
     .recruters-1{
         padding: 5px;
@@ -1074,6 +1094,20 @@ to{
     .recruters-1{
         height: 400px;
     }
+    .recruters img{
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+    .less img{
+        margin-top: 40px;
+    }
+    .size3 img{
+        margin-top: 5px;
+    }
+    .size2 img{
+        margin-top: 20px;
+    }
+
 }
 .div{
     background: #f1f1f3;
@@ -1119,32 +1153,68 @@ to{
      font-weight: normal;
      height: 22px;
 }
-
+.help p{
+    margin-left: 500px;
+}
 @media (max-width:1000px) {
     .down{
         height: 1930px;
     }
+    .recruters p{
+        margin-left: 600px;
+    } 
 }
 @media (max-width:614px) {
     .copy{
         height: 25px;
         font-size: 10px;
     }
+   
 }
+
 @media(max-width:400px){
     .down{
        height: 800px;
+    }
+    .help p{
+        margin-left: 160px;
     }
     .copy{
         height: 20px;
         padding: 2px;
     }
+    .recruters p{
+       margin-left: 200px; 
+    }
+}
+@media (max-width:360px) {
+    .down{
+        height:940px;
+    }
+    .down-1{
+        margin-top: -10px;
+    }
+    .recruters p{
+        margin-left: 200px;
+    }
 }
 @media (max-width:300px) {
     .down{
-        height: 1160px;
+        height: 1100px;
     }
     .copy{
+        font-size: 9px;
+      padding-top: 8px;
         height: 25px;
     }
+    .help p{
+        margin-left: 110px;
+    }
+    .recruters p{
+        margin-left: 150px;
+    }
+    .down-1{
+        margin-top: -10px;
+    }
+    
 }
