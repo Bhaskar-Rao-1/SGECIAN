@@ -1175,6 +1175,7 @@ to{
 @media(max-width:400px){
     .down{
        height: 800px;
+        background-color:red;
     }
     .help p{
         margin-left: 160px;
@@ -1202,7 +1203,7 @@ to{
 @media (max-width:300px) {
     .down{
         height: 1100px;
-        background-color: red;
+ 
     }
     .copy{
         font-size: 9px;
