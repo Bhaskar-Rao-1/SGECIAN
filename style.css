@@ -1189,8 +1189,8 @@ to{
 }
 @media (max-width:360px) {
     .down{
-        height:700px;
-        background-color:red;
+        height:940px;
+        
     }
     .down-1{
         margin-top: -10px;
@@ -1202,6 +1202,7 @@ to{
 @media (max-width:300px) {
     .down{
         height: 1100px;
+        background-color: red;
     }
     .copy{
         font-size: 9px;
