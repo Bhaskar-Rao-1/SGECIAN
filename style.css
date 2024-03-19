@@ -1,6 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-}
+   
 
 #preloader{
     background:black url(reading.gif) no-repeat center center ;
@@ -847,9 +847,16 @@ to{
     transition: 3s;
 }
 @media (max-width:1000px) {
+      .branches-1{
+        height: 400px;
+      }
     .branches img{
         height: 280px;
         width: 300px;
+    }
+    .branches img:hover{
+        height: 300px;
+        width: 350px;
     }
 }
 @media (max-width:614px) {
@@ -885,13 +892,23 @@ to{
 }
 @media (max-width:400px){
       .branches-1 img{
-        height: 136px;
-        width: 183.5px;
+        height: 130px;
+        width: 200px;
       }
       .branches-1 img:hover{
         height: 150px;
         width: 210px;
       }
+}
+@media (max-width:300px) {
+    .branches-1 img{
+        height: 120px;
+        width: 210;
+    }
+    .branches-1 img:hover{
+        height: 130px;
+        width: 220px;
+    }
 }
 .going{
   font-size: 20px;
@@ -980,6 +997,18 @@ to{
     .going-1 img{
         width: 220px;
         height: 220px;
+    }
+}
+@media (max-width:300px) {
+    .going-1 img{
+        height: 120px;
+        width: 100px;
+    }
+}
+@media (max-width:400px) {
+    .going-1 img{
+        height: 130px;
+        width: 130px;
     }
 }
 .recruters{
@@ -1174,8 +1203,7 @@ to{
 
 @media(max-width:400px){
     .down{
-       height: 500px;
-        background-color: yellow;
+       height: 800px;
     }
     .help p{
         margin-left: 160px;
@@ -1191,7 +1219,6 @@ to{
 @media (max-width:360px) {
     .down{
         height:940px;
-        
     }
     .down-1{
         margin-top: -10px;
@@ -1203,7 +1230,6 @@ to{
 @media (max-width:300px) {
     .down{
         height: 1100px;
- 
     }
     .copy{
         font-size: 9px;
