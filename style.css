@@ -1203,7 +1203,8 @@ to{
 
 @media(max-width:400px){
     .down{
-       height: 800px;
+       height: 600px;
+        background-color:red;
     }
     .help p{
         margin-left: 160px;
