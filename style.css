@@ -1203,8 +1203,8 @@ to{
 
 @media(max-width:400px){
     .down{
-       height: 600px;
-        background-color:red;
+       height: 700px;
+       margin-bottom:200px;
     }
     .help p{
         margin-left: 160px;
@@ -1220,6 +1220,7 @@ to{
 @media (max-width:360px) {
     .down{
         height:940px;
+        background-color:yellow;
     }
     .down-1{
         margin-top: -10px;
