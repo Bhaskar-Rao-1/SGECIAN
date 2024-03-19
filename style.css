@@ -1201,6 +1201,18 @@ to{
    
 }
 
+
+@media (max-width:360px) {
+    .down{
+        height:800px;
+    }
+    .down-1{
+        margin-top: -10px;
+    }
+    .recruters p{
+        margin-left: 200px;
+    }
+}
 @media(max-width:400px){
     .down{
        height: 700px;
@@ -1215,18 +1227,6 @@ to{
     }
     .recruters p{
        margin-left: 200px; 
-    }
-}
-@media (max-width:360px) {
-    .down{
-        height:800px;
-        background-color:yellow;
-    }
-    .down-1{
-        margin-top: -10px;
-    }
-    .recruters p{
-        margin-left: 200px;
     }
 }
 @media (max-width:300px) {
