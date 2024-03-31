@@ -24,7 +24,7 @@
     position: sticky;
     margin-top: 10px;
     background-attachment: fixed;
-    height: 500px;
+    height: 800px;
 }
 @media (max-width:614px) {
    .total{
@@ -203,6 +203,7 @@ img{
     .jntugv-1{
         margin-left: 200px;
     }
+    
 }
 *{
     box-sizing: border-box;
@@ -212,6 +213,7 @@ img{
     background-color: rgb(226, 116, 116);
     height: 10px;
 }
+
 .text{
     background-color: blue;
     height: 40px;
@@ -305,12 +307,29 @@ img{
     }
 }
 @media(max-width:400px){
+    .total{
+
+        height: 800px;
+    }
+    .div{
+        height: 5px;
+    }
+    .logo{
+        height: 50px;
+    }
+    .text{
+        font-size: 18px;
+    }
     .down{
        height: 440px;
     }
     .copy{
         height: 20px;
         padding: 3px;
+        margin-top: 80px;
+    }
+    .down-1{
+        margin-bottom: -50px;
     }
 }
 @media (max-width:300px) {
@@ -319,5 +338,34 @@ img{
     }
     .copy{
         height: 25px;
+        font-size: 8px;
+    }
+}
+@media (max-width:300px) {
+    .total{
+        height: 900px;
+    }
+    .down{
+        height: 600px;
+    }
+    .copy{
+        height: 25px;
+        font-size: 8px;
+    }
+
+}
+@media (max-width:360px) {
+    .total{
+        height: 800px;
+    }
+    .down{
+        height: 580px;
+        padding: 10px;
+    }
+    .down-1{
+        margin-bottom: -50px;
+    }
+    .copy{
+        margin-top: 70px;
     }
 }

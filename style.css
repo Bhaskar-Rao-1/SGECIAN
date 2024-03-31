@@ -1,6 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-   
+}
 
 #preloader{
     background:black url(reading.gif) no-repeat center center ;
@@ -178,6 +178,15 @@ img{
         margin-left: 700px;
         margin-top: -200px;
     
+    }
+}
+@media (max-width:500px) {
+    .jntugv{
+        margin-left: 170px;
+    }
+    .jntugv-1{
+        margin-left: 330px;
+        margin-top: -110px;
     }
 }
 @media (max-width:400px) {
@@ -826,7 +835,7 @@ to{
 
 .branches img{
     height: 300px;
-    width: 350px;
+    width: 370px;
     transition: 1s;
 }
 
@@ -843,7 +852,7 @@ to{
 
 .branches img:hover{
     height: 350px;
-    width: 380px;
+    width: 400px;
     transition: 3s;
 }
 @media (max-width:1000px) {
@@ -1201,22 +1210,9 @@ to{
    
 }
 
-
-@media (max-width:360px) {
-    .down{
-        height:800px;
-    }
-    .down-1{
-        margin-top: -10px;
-    }
-    .recruters p{
-        margin-left: 200px;
-    }
-}
 @media(max-width:400px){
     .down{
-       height: 700px;
-       margin-bottom:200px;
+       height: 800px;
     }
     .help p{
         margin-left: 160px;
@@ -1227,6 +1223,17 @@ to{
     }
     .recruters p{
        margin-left: 200px; 
+    }
+}
+@media (max-width:360px) {
+    .down{
+        height:940px;
+    }
+    .down-1{
+        margin-top: -10px;
+    }
+    .recruters p{
+        margin-left: 200px;
     }
 }
 @media (max-width:300px) {
