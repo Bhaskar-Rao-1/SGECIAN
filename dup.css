@@ -1,4 +1,5 @@
 *{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
@@ -30,6 +31,7 @@
 }
 
 .logo{
+    border: 2px solid aqua;
     margin-right: 3%;
 
 }
@@ -42,22 +44,49 @@
 }
 
 .logo-title-1{
-    margin-top: 40px;
-    padding: 1%;
+    margin-top: 0px;
+    padding: 1px;
     width: 100%;
-    height: 180px;
+    height: 160px;
 } 
 
-
+@media screen and (max-width:1000px) {
+    .title-1{
+        font-size: 18px;
+        margin-top: -30px;
+    } 
+}
 @media screen and (max-width:1048px){
-
+    .logo-title-1{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
     .JNTUGV{
         margin-left: 0px;
         float: left;
         width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: -200px;
+    }
+    .jntugv{
+        margin-left: 0px;
+        margin-top: 0px;
+        float: left;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
     }
 }
 
+@media screen and (min-width:700px) {
+    .title-1{
+        font-size: 16px;
+        margin-top: -10px;
+    }
+}
 @media screen and (min-width:500px) {
     .title-1{
         font-size: 15px;
@@ -66,46 +95,39 @@
 .title{
     color: black;
     text-align: center;
-    font-family:  'Courier New';
+    font-size: 19px;
+    font-family:'Times New Roman', Times, serif;
     border: 3px solid black;
     border-radius: 10px;
     margin-right: 3%;
     width: 100%;
     overflow: scroll;
-    overflow-x: visible;
+    overflow-x:visible;
     overflow-y: visible;
+    text-decoration: underline;
     cursor: pointer;
 
 }
 .title-2{
-    padding-left: 10%;
+    padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
     float: left;
-    height: 160px;
+    height: 200px;
 }
 .title:hover{
-    color: hsl(240, 66%, 57%);
+    color: blue;
     transition: 2s;
 }
 .jntugv{
     color: blue;
     text-align: center;
     float: left;
-    height: 160px;
-    padding-left: 11%;
-}
-.jntugv-1{
-    margin-left: 12%;
+    padding-left: 20%;
 }
 .JNTUGV{
-    
-    margin-left: 30%;
+    margin-left: 25%;
 }
-
-    
-
-
 @media screen and (max-width:1100px) {
     .JNTUGV{
         margin-left: 0%;
@@ -113,78 +135,45 @@
         display: flex;
     }
 }
+@media screen and (max-width:850px) {
+    .JNTUGV{
+        margin-top: 0px;
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width:700px) {
+    .JNTUGV{
+        display: flex;
+    }
+    .jntugv{
+        display: flex;
+        padding-left: 100px;
+        margin-left: 40px;
+    }
+}
 @media screen and (max-width:500px) {
     .jntugv{
         width: 200px;
-        margin: 0px;
-        padding: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     
     }
     .jntugv img{
-        width: 100px;
+        width: 100%;
+        margin-left: 0px;
         padding-left: 0px;
         padding: 0px;
     }
 }
 
-
-
-
-
-
-
-/* original */
-
-@media screen and (min-width:1300px) {
-    .jntugv{
-        padding-left: 7.5%;
-    }
-}
-
-@media screen and (min-width:1099px) and (max-width:1299px) {
-    .jntugv{
-        padding-left: 3%;
-        
-    }
-}
-
-@media screen and (min-width:1049px) and (max-width:1098px) {
-    .jntugv{
-        padding-left: 2.5%;
-    }
-}
-
-@media screen and (min-width:561px) and (max-width:1048px) {
-    .jntugv{
-        padding-left: 5.9%;
-
-    }
-}
-
-@media screen and (min-width:501px) and (max-width: 560px){
+@media screen and (min-width:810px) and (max-width:1000px){
     .JNTUGV{
-        padding-left: 2%;
-
+        width: 600px;
+        padding-left: 0px;
     }
-    .jntugv{
-        padding-left: 3%;     
-
+    .jntugv img{
+        margin-left: 0px;
+        padding-left: 0px;
     }
 }
-
-/* upto */
-
-
-
-
-
-
-
-
-
 #WTS{
     text-align: center;
     color: white;
@@ -213,8 +202,8 @@
         height: 400px;
     }
     .title{
-        border-radius: 0px;
-        border-width: 0px;
+border-radius: 0px;
+border-width: 0px;
         margin-top: 150px;
         height: 150px;
     }
@@ -222,17 +211,12 @@
         font-size: 12px;
     }
     .logo-title-1{
-        
         margin-top: -100px;
     }
     .jntugv{
         margin-left: 10px;
     }
-    
 }
-
-
-/* one section */
 
 .section{
     margin: 1px;
@@ -308,8 +292,9 @@
     width: 100%;
 }
 
+
 .black-in{
-    padding: 9px;
+padding: 9px;
 }
 .tree-1{
     float: left;
@@ -324,11 +309,6 @@
 @media (max-width:1000px){
     .slide{
         width: 90%;
-    }
-}
-@media screen  and (max-width:700px){
-    .slide{
-        width: 500px;
     }
 }
 
@@ -358,11 +338,6 @@
         width: 95%;
     }
    
-}
-@media screen and (min-width:1000px) and (max-width:1050px) {
-    .slide{
-   width: 900px;
-    }
 }
 .myslide{
        display: none;
@@ -441,46 +416,18 @@ to{
 }
 }
 @media screen and (min-width:0px) and (max-width:700px) {
+    
+    
     .title-1{
         font-size: 10px;
         width: 400px;
         margin-top: 10px;
-
+        margin-left: -160px;
     }
     .text{
         font-size: 8px;
     }
-    
 }
-
-@media screen and (min-width:0px) and (max-width:700px) {
-    .total-1 img{
-        width: 110px;
-        height: 110px;
-    }
-    .total-1{
-        height: 200px;
-    }
-    .logo{
-        border-width: 0px;
-        
-    }
-    .title{
-        border-width: 2px;
-        border-radius: 10px;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 0px;
-        min-width: 200px;
-        height: 100px;
-    }
-    .title-1{
-        margin-left: 0px;
-        font-size: 7px;
-    }
-}
-
 .icon{
     width: 100%;
     background-color: #555;
@@ -497,7 +444,6 @@ to{
 .icon a:hover{
     background-color: #000;
 }
-
 @media (max-width:614px) {
     .icon a{
         width: 20%;
@@ -506,7 +452,6 @@ to{
 .active{
     background-color: #04aa6d;
 }
-
 @media screen and (max-width:900px) {
     .tree{
         font-size: 14px;
@@ -515,7 +460,7 @@ to{
 @media screen and (max-width:700px) {
     .tree-1{
         font-size: 15px;
-        width: 100%;
+    width: 100%;
     }
     .black{
         height: 300px;
@@ -545,7 +490,6 @@ to{
        margin-top: 20px;
     }
 }
-
 @media screen and (min-width:0px) and (max-width:700px) {
     .black{
         font-size: 11px;
@@ -559,23 +503,12 @@ to{
         height: 1200px;
     }
 }
-@media screen and (min-width:0px) and (max-width:351px){
-    .black{
-        width: 250px;
-        margin-left: -20px;
-    }
-    .img{
-        width: 250px;
-        margin-left: -20px;
-    }
-}
 @media screen and (min-width:500px) and (max-width:610px){
     .img img{
         margin-top: 10px;
         height: 300px;
         width: 300px;
     }
-
 }
 
 @media  screen and (min-width:610px) and (max-width:780px){
@@ -610,7 +543,6 @@ to{
 
     }
 }
-
 .div1{
     background-color: blue;
     margin: 1px;
@@ -626,7 +558,7 @@ to{
 
 .branches img{
     height: 300px;
-    width: 100%;
+    width: 320px;
     transition: 1s;
 }
 
@@ -641,8 +573,8 @@ to{
 }
 
 .branches img:hover{
-    height: 310px;
-    width: 105%;
+    height: 320px;
+    width: 350px;
     transition: 3s;
 }
 @media screen and (max-width:1100px) {
@@ -692,12 +624,9 @@ to{
 }
 @media screen and (min-width:0px) and (max-width:700px) {
     .branches{
-        margin-top: 0px;
+        margin-top: 100px;
         padding: 0px;
-        margin-left:0px;
-        width: 100%;
         padding-left: 0px;
-        margin-right: 0px;
         margin-bottom: 0px;
         height: 900px;
         font-size: 12px;
@@ -741,21 +670,11 @@ to{
     }
     .h3-prob h3{
         display: flex;
-        margin-top: 0px;
         width: 100%;
         text-align: center;
         margin-left: 0px;
         padding-bottom: 0px;
         margin-bottom: 0px;
-        padding: 0px;
-    }
-}@media screen and (min-width:0px) and (max-width:351px){
-    .branches-1{
-        width: 155px;
-        border-radius: 4px;
-    }
-    .branches{
-        margin: 0px;
     }
 }
 .going{
@@ -785,24 +704,15 @@ to{
     transition: 2s;
 }
 .going-1 img:hover{
-      height: 260px;
-      width: 290px;
+      height: 270px;
+      width: 300px;
       transition: 1s;
       cursor: pointer;
 }
 .float{
     float: left;
 }
-@media screen and (max-width:1048px){
-    .going-1 img{
-        width: 100%;
-    }
-    .going-1 img:hover{
-width: 105%;
-    }
-}
 @media screen and (max-width:1000px) {
-
     .going-1 img{
         width: 100%;
         height: 250px;
@@ -811,13 +721,11 @@ width: 105%;
         width: 100%;
         height: 250px;
     }
-    
 }
 @media screen and (max-width:900px) {
     .going-1{
         font-size: 12px;
     }
-    
 }
 @media screen and (max-width:500px) {
     .going-1 img{
@@ -888,8 +796,7 @@ width: 105%;
 
 @media  screen and (max-width:1230px) {
     .recruters-1{
-        height: 600px; 
-
+        height: 600px;
     }
     .recruters p{
         margin-left: 0px;
@@ -902,7 +809,6 @@ width: 105%;
     }
     .recruters-1{
         height: 690px;
-
     }
 
 }
@@ -912,7 +818,6 @@ width: 105%;
     }
     .recruters-1{
         height: 800px;
-
     }
 }
 @media screen and (min-width:990px){
@@ -939,11 +844,16 @@ width: 105%;
         height: 50px;
     }
 }
-@media screen and (min-width:870px) and (max-width:1000px){
-    .recruters-1{
-        height: 600px;
+/*
+@media screen and (max-width:700px) {
+    .recruters{
+        background-color: yellow;
     }
-}
+    .recruters-1 img{
+        width: ;
+        height: 50px;
+    }
+}*/
 @media  screen and (min-width:610px) and (max-width:780px){
     .recruters-1 img{
         height: 80px;
@@ -952,24 +862,6 @@ width: 105%;
 @media screen and (min-width:610px) and (max-width:700px) {
     .recruters-1 img{
         height: 65px;
-    }
-}
-@media screen and (min-width:550px) and (max-width:610px){
-    .recruters-1 img{
-        height: 60px;
-    }
-}
-@media screen and (min-width:550px) and (max-width:570px) {
-    .recruters-1 img{
-        height: 50px;
-
-    }
-}
-@media screen and (min-width:0px) and (max-width:351px){
-    .recruters-1{
-        height: 550px;
-        width: 300px;
-        margin-left: -10px;
     }
 }
 .div{
@@ -996,13 +888,14 @@ width: 105%;
 
 .copy{
     width: 100%;
+     float: left; 
     background-color: rgb(84, 110, 213);
-    font-weight: normal;
-    height: 22px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    font-size: 11px;
+     text-align: center; 
+     font-weight: normal;
+     height: 22px;
+     justify-content: center;
+     align-items: center;
+     font-size: 11px;
 }
 
 @media screen and (max-width:500px){/*max--927*/
@@ -1025,64 +918,106 @@ width: 105%;
     .down{
         height: 1650px;
     }
-    .down-style{
-        width: 100%;
-        margin-left: 0px;
-        height: 150px;
-    }
 }
 @media screen and (min-width:800px) and (max-width:920px) {
     .down{
-        height: 1280px;
-    }
-    .down-1{
-        height: 190px;
+        height: 1470px;
     }
 }
 @media screen and (min-width:1000px) and (max-width:1030px){
     .down{
-        height: 1150px;
+        height: 1300px;
     }
 }
 @media screen and (min-width:460px) and (max-width:550px){
     .down{
-        height: 1200px;
+        height: 1500px;
     }
 }
 @media screen and (min-width:550px) and (max-width:800px) {
     .down{
-       height: 1200px;
+       height: 1500px;
     }   
-}
-@media screen and (min-width:700px) and (max-width:800px){
-    .down{
-        height: 1450px;
+}/*
+@media screen and (min-width:0px) and (max-width:700px) {
+    .total-1{
+        height: 200px;
+        display: flex;
+    }
+    .logo{
+        border-radius: 0px;
+        border-width: 0px;
+        float: left;
+    }
+    .logo-title{
+        width: 100px;
+        height: 100px;
+        padding: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .total-1 img{
+        height: 100px;
+        width: 100px;
+        float: left;
+
+    }
+    .title{
+        border-radius: 10px;
+        border-width: 3px;
+        width: 300px;
+        margin-top: 0px;
+        height: 100px;
+        display: flex;
+
+    }
+    .title-1{
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 300px;
     }
 }
-@media screen and (min-width:0px) and (max-width:610px) {
- .total{
-    height: 2500px;
- }
- .tree{
-    height: 1500px;
- }
- .branches{
-    height: 700px;
- }
-}
-@media screen and (min-width:0px) and (max-width:351px){
-    .copy{
-        font-size: 9px;
+@media screen and (min-width:0px) and (max-width:700px) {
+    .total-1 img{
+        width: 110px;
+        height: 110px;
+    }
+    .total-1{
+        height: 200px;
+    }
+    .logo{
+        border-width: 0px;
+        
+    }
+    .title{
+        border-width: 2px;
+        border-radius: 10px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        min-width: 200px;
+        height: 100px;
+    }
+    .title-1{
+margin-left: 0px;
+font-size: 7px;
     }
 }
-@media screen and (min-width:0px) and (max-width:460px) {
-    .down
-    {
-        height: 1500px;
+@media screen and (min-width:0px) and (max-width:700px) {
+    .total-1{
+        width: 100%;
     }
-}
-@media screen and (min-width:470px) and (max-width:610px) {
-    .down{
-        height: 1250px;
+    .title{
+        display: flex;
+        margin-right: 0px;
+        margin-left: 0px;
+        
     }
-}
+    .title-1{
+        float: left;
+        width: 380px;
+        height: 100px;
+    }
+}*/
