@@ -354,3 +354,50 @@ div.logo-title-1{
         height: 600px;
     }
 }
+@media screen and (min-width: 0px) and (max-width: 360px){
+    .logo-title{
+        height: 100px;
+    }
+    .total-1{
+        height: 100px;
+    }
+    .logo, .logo img{
+        height: 60px;
+        width: 60px;
+    }
+    .logo{
+        margin-top: 10px;
+    }
+    .title{
+        margin-top: 0px;
+        height: 70px;
+        width: 250px;
+        border-width: 1px;
+    }
+    .logo-title-1{
+        font-size: 10px;
+        height: 260px;
+        margin-top: 0px;
+    }
+    .title-2{
+        height: 100px;
+    }
+    .JNTUGV{
+        height: 150px;
+    }
+    .jntugv{
+        height: 150px;
+    }
+    .jntugv img{
+        height: 80px;
+        width: 80px;
+    }
+    .icon a{
+        font-size: 15px;
+    }
+    .copy{
+        font-size: 10px;
+        width: 100%;
+        width: 300px;
+    }
+}
