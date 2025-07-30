@@ -1198,7 +1198,7 @@ width: 105%;
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 360px){
+@media screen and (min-width: 0px) and (max-width: 380px){/*chnahed 360*/
     
     .logo-title{
         height: 100px;
